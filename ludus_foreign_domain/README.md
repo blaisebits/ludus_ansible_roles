@@ -23,3 +23,4 @@ ludus:
       - ludus_foreign_domain
     role_vars:
       new_domain_name: "dev.test.local"
+      new_domain_netbios_name: "dev"
