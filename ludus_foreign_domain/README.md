@@ -8,8 +8,6 @@ Ansible role to create a stand alone domain and domain controller.
 
 ```yaml
 ludus: 
-  
-  # Create a foreign domain
   - vm_name: "{{ range_id }}-Internal-VLAN30-devdc01"
     hostname: "devdc01"
     template: win2016-server-x64-template

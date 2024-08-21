@@ -24,6 +24,6 @@ galaxy_info:
 
 collections:
   - ansible.windows
-  - microsoft.ad.domain
+  - microsoft.ad
   - community.windows
   - community.general

@@ -14,7 +14,7 @@
     dns_domain_name: "{{ new_domain_name }}"
     domain_netbios_name: "{{ new_domain_netbios_name }}"
     domain_mode: "{{ DomainMode }}"
-    forest_mode: "{{ ForestMode }}"
+    forest_mode: "{{ ForestMode }}" 
     safe_mode_password: "{{ SafeModeAdministratorPassword }}"
     install_dns: true
   register: domain_creation
